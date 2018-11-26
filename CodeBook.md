@@ -27,9 +27,9 @@ the minimum, etc.
 
 ## Script
 ### Pre-requirements
-* package "dplyr"
+* package "data.table" and "reshape2"
 * the complete UCI HAR Dataset 
-* two data frames stored in memory and denoted as "dataTest" and "dataTrain". 
+* two data frames stored in memory and denoted as "activity_labels" and "features". 
 The column names of data set are 561 features, with the same labels of the original data set, 
 a column with the subject identifyer, a column with the activity identifyer.
 
